@@ -2,5 +2,5 @@ BraveSoftware/
 Code/
 dconf/
 pulse/
-systemd/user/default.target.wants/
+systemd/user/*.wants/
 zsh/.zcompdump-*

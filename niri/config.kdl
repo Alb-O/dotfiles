@@ -5,8 +5,6 @@
 
 environment {
     ELECTRON_OZONE_PLATFORM_HINT "auto"
-    ZDOTDIR "/home/albert/.config/zsh"
-    ZSH_CUSTOM "/home/albert/.config/zsh/plugins"
 }
 
 // Input device configuration.

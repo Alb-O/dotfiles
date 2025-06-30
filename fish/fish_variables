@@ -1,5 +1,12 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR DOTNET_CLI_HOME:/home/albert/\x2elocal/share/dotnet
+SETUVAR ERRFILE:/home/albert/\x2ecache/X11/xsession\x2derrors
+SETUVAR HISTFILE:/home/albert/\x2elocal/state/bash/history
+SETUVAR XDG_CACHE_HOME:/home/albert/\x2ecache
+SETUVAR XDG_CONFIG_HOME:/home/albert/\x2econfig
+SETUVAR XDG_DATA_HOME:/home/albert/\x2elocal/share
+SETUVAR XDG_STATE_HOME:/home/albert/\x2elocal/state
 SETUVAR __fish_initialized:3800
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
