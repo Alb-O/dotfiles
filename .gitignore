@@ -1,0 +1,6 @@
+BraveSoftware/
+Code/
+dconf/
+pulse/
+systemd/user/default.target.wants/
+zsh/.zcompdump-*
