@@ -6,3 +6,6 @@ Requisite=graphical-session.target
 [Service]
 ExecStart=/usr/bin/swaybg -m fill -i "%h/Pictures/benjamin-hung-340392-unsplash.jpg"
 Restart=on-failure
+
+[Install]
+WantedBy=niri.service
