@@ -1,0 +1,9 @@
+[Default Applications]
+image/png=mpv.desktop
+image/jpeg=mpv.desktop
+image/gif=mpv.desktop
+
+[Added Associations]
+image/png=mpv.desktop;
+image/jpeg=mpv.desktop;
+image/gif=mpv.desktop;

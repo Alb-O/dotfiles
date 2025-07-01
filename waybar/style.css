@@ -1,0 +1,78 @@
+* {
+	border: none;
+	border-radius: 0;
+	font-family: "FiraMono Nerd Font Mono", "Fira Sans";
+	font-size: 16px;
+	min-height: 0;
+}
+
+window#waybar {
+	background: #13141C;
+	border-bottom: 3px solid #1A1B26;
+	color: #BB9AF7;
+}
+
+tooltip {
+	background: rgba(43, 48, 59, 0.5);
+	border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+	color: white;
+}
+
+#workspaces button {
+	padding: 0 5px;
+	color: #FF9B7B;
+	border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+	background: #64727d;
+	border-bottom: 3px solid white;
+}
+
+#mode {
+	border-bottom: 3px solid white;
+}
+
+#clock {
+	/* background-color: #64727d; */
+}
+
+#battery {
+	background-color: #ffffff;
+	color: black;
+}
+
+#battery.charging {
+	color: white;
+	background-color: #26a65b;
+}
+
+@keyframes blink {
+	to {
+		background-color: #ffffff;
+		color: black;
+	}
+}
+
+#battery.warning:not(.charging) {
+	background: #f53c3c;
+	color: white;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: steps(12);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#pulseaudio.muted,
+#pulseaudio.muted label {
+    color: #ff4444;
+}
+
+#window label {
+    font-family: "Fira Sans";
+    color:#9ece6a;
+}

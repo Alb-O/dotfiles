@@ -4,3 +4,4 @@ dconf/
 pulse/
 systemd/user/*.wants/
 zsh/.zcompdump-*
+QtProject.conf
